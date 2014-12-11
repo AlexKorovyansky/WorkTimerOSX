@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568A0AF91A37098A00EADB83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A0AF81A37098A00EADB83 /* AppDelegate.swift */; };
+		568A0AFB1A37098A00EADB83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A0AFA1A37098A00EADB83 /* ViewController.swift */; };
+		568A0AFD1A37098A00EADB83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568A0AFC1A37098A00EADB83 /* Images.xcassets */; };
+		568A0B001A37098A00EADB83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568A0AFE1A37098A00EADB83 /* Main.storyboard */; };
+		568A0B0C1A37098A00EADB83 /* WorkTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A0B0B1A37098A00EADB83 /* WorkTimerTests.swift */; };
+		568A0B441A39858D00EADB83 /* WorkTimer.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 568A0B431A39858D00EADB83 /* WorkTimer.iconset */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568A0B061A37098A00EADB83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568A0AEB1A37098A00EADB83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568A0AF21A37098A00EADB83;
+			remoteInfo = WorkTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		568A0AF31A37098A00EADB83 /* WorkTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568A0AF71A37098A00EADB83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568A0AF81A37098A00EADB83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		568A0AFA1A37098A00EADB83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		568A0AFC1A37098A00EADB83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		568A0AFF1A37098A00EADB83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568A0B051A37098A00EADB83 /* WorkTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		568A0B0A1A37098A00EADB83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568A0B0B1A37098A00EADB83 /* WorkTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimerTests.swift; sourceTree = "<group>"; };
+		568A0B431A39858D00EADB83 /* WorkTimer.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = WorkTimer.iconset; path = Resources/WorkTimer.iconset; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568A0AF01A37098A00EADB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568A0B021A37098A00EADB83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		568A0AEA1A37098A00EADB83 = {
+			isa = PBXGroup;
+			children = (
+				568A0AF51A37098A00EADB83 /* WorkTimer */,
+				568A0B081A37098A00EADB83 /* WorkTimerTests */,
+				568A0AF41A37098A00EADB83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		568A0AF41A37098A00EADB83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568A0AF31A37098A00EADB83 /* WorkTimer.app */,
+				568A0B051A37098A00EADB83 /* WorkTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568A0AF51A37098A00EADB83 /* WorkTimer */ = {
+			isa = PBXGroup;
+			children = (
+				568A0AF81A37098A00EADB83 /* AppDelegate.swift */,
+				568A0AFA1A37098A00EADB83 /* ViewController.swift */,
+				568A0AFC1A37098A00EADB83 /* Images.xcassets */,
+				568A0B431A39858D00EADB83 /* WorkTimer.iconset */,
+				568A0AFE1A37098A00EADB83 /* Main.storyboard */,
+				568A0AF61A37098A00EADB83 /* Supporting Files */,
+			);
+			path = WorkTimer;
+			sourceTree = "<group>";
+		};
+		568A0AF61A37098A00EADB83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568A0AF71A37098A00EADB83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		568A0B081A37098A00EADB83 /* WorkTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				568A0B0B1A37098A00EADB83 /* WorkTimerTests.swift */,
+				568A0B091A37098A00EADB83 /* Supporting Files */,
+			);
+			path = WorkTimerTests;
+			sourceTree = "<group>";
+		};
+		568A0B091A37098A00EADB83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568A0B0A1A37098A00EADB83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568A0AF21A37098A00EADB83 /* WorkTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568A0B0F1A37098A00EADB83 /* Build configuration list for PBXNativeTarget "WorkTimer" */;
+			buildPhases = (
+				568A0AEF1A37098A00EADB83 /* Sources */,
+				568A0AF01A37098A00EADB83 /* Frameworks */,
+				568A0AF11A37098A00EADB83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkTimer;
+			productName = WorkTimer;
+			productReference = 568A0AF31A37098A00EADB83 /* WorkTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568A0B041A37098A00EADB83 /* WorkTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568A0B121A37098A00EADB83 /* Build configuration list for PBXNativeTarget "WorkTimerTests" */;
+			buildPhases = (
+				568A0B011A37098A00EADB83 /* Sources */,
+				568A0B021A37098A00EADB83 /* Frameworks */,
+				568A0B031A37098A00EADB83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568A0B071A37098A00EADB83 /* PBXTargetDependency */,
+			);
+			name = WorkTimerTests;
+			productName = WorkTimerTests;
+			productReference = 568A0B051A37098A00EADB83 /* WorkTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568A0AEB1A37098A00EADB83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Korovyansky";
+				TargetAttributes = {
+					568A0AF21A37098A00EADB83 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					568A0B041A37098A00EADB83 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 568A0AF21A37098A00EADB83;
+					};
+				};
+			};
+			buildConfigurationList = 568A0AEE1A37098A00EADB83 /* Build configuration list for PBXProject "WorkTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 568A0AEA1A37098A00EADB83;
+			productRefGroup = 568A0AF41A37098A00EADB83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568A0AF21A37098A00EADB83 /* WorkTimer */,
+				568A0B041A37098A00EADB83 /* WorkTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568A0AF11A37098A00EADB83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568A0B441A39858D00EADB83 /* WorkTimer.iconset in Resources */,
+				568A0AFD1A37098A00EADB83 /* Images.xcassets in Resources */,
+				568A0B001A37098A00EADB83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568A0B031A37098A00EADB83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568A0AEF1A37098A00EADB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568A0AFB1A37098A00EADB83 /* ViewController.swift in Sources */,
+				568A0AF91A37098A00EADB83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568A0B011A37098A00EADB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568A0B0C1A37098A00EADB83 /* WorkTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568A0B071A37098A00EADB83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568A0AF21A37098A00EADB83 /* WorkTimer */;
+			targetProxy = 568A0B061A37098A00EADB83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		568A0AFE1A37098A00EADB83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568A0AFF1A37098A00EADB83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568A0B0D1A37098A00EADB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		568A0B0E1A37098A00EADB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		568A0B101A37098A00EADB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WorkTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		568A0B111A37098A00EADB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WorkTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		568A0B131A37098A00EADB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkTimer.app/Contents/MacOS/WorkTimer";
+			};
+			name = Debug;
+		};
+		568A0B141A37098A00EADB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkTimer.app/Contents/MacOS/WorkTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568A0AEE1A37098A00EADB83 /* Build configuration list for PBXProject "WorkTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568A0B0D1A37098A00EADB83 /* Debug */,
+				568A0B0E1A37098A00EADB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568A0B0F1A37098A00EADB83 /* Build configuration list for PBXNativeTarget "WorkTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568A0B101A37098A00EADB83 /* Debug */,
+				568A0B111A37098A00EADB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		568A0B121A37098A00EADB83 /* Build configuration list for PBXNativeTarget "WorkTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568A0B131A37098A00EADB83 /* Debug */,
+				568A0B141A37098A00EADB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568A0AEB1A37098A00EADB83 /* Project object */;
+}
